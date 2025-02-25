@@ -218,8 +218,8 @@ Contributions are welcome! Follow these steps:
     ```
 5.  Open a pull request.
 
-   ![Alt Text](https://github.com/vaishnavidalal11/A-Diagnostic-Assistant/blob/main/1.jpeg)
+   ![Alt Text](https://github.com/vaishnavidalal11/Google-Girl-Hackathon/blob/main/2.jpeg)
 
    
 
-   ![Alt Text](https://github.com/vaishnavidalal11/A-Diagnostic-Assistant/blob/main/2.jpeg)
+   ![Alt Text](https://github.com/vaishnavidalal11/Google-Girl-Hackathon/blob/main/2.jpeg)
