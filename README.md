@@ -63,8 +63,8 @@ Setup Instructions
 
 ### 1\. Clone the Repository
 ```bash
-git clone https://github.com/your-username/diagnostic-assistant.git
-cd diagnostic-assistant
+git clone https://github.com/vaishnavidalal11/Google-Girl-Hackathon.git
+cd Google-Girl-Hackathon
 ```
 
 ### 2\. Set Up the Backend
@@ -105,13 +105,42 @@ cd diagnostic-assistant
 
 1.  Navigate to the frontend folder:
     ```bash
-    cd ../frontend
+    cd frontend
     ```
 2.  Install dependencies:
     ```bash
     npm install
     ```
-3.  Start the development server:
+3.  Set Up Tailwind CSS:
+       * Install Tailwind and its dependencies:
+         ```bash
+         npm install -D tailwindcss postcss autoprefixer
+         ```
+       * Initialize Tailwind:
+         ```bash
+         npx tailwindcss init -p
+         ```
+       * Configure tailwind.config.js:
+         ```javascript
+         /** @type {import('tailwindcss').Config} */
+         export default {
+             content: [
+                 "./index.html",
+                 "./src/**/*.{js,ts,jsx,tsx}",
+             ],
+             theme: {
+                 extend: {},
+             },
+             plugins: [],
+         }
+         ```
+       * Add Tailwind to your CSS file (src/index.css):
+         ```css
+         @tailwind base;
+         @tailwind components;
+         @tailwind utilities;
+         ```
+4.  Start the development server:
     ```bash
     npm run dev
     ```
